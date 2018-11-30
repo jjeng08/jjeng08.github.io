@@ -251,8 +251,21 @@ html,body{
 
 }
 
+#topQuote{
+	margin-top:40px;
+	margin-left:60px;
+	margin-right:60px;
+	font-style:italic;
+}
+
+#botQuote{
+	margin-bottom:30px;
+}
+
 .text{
-	margin:30px;
+	margin-bottom:40px;
+	margin-left:60px;
+	margin-right:60px;
 	text-align:left;
 	font-family: 'Istok Web', sans-serif;
 }
@@ -266,6 +279,7 @@ html,body{
 	width:90%;
 	display:none;
 }
+
 .row{
 	display:flex;
 	justify-content:space-around;
@@ -362,6 +376,7 @@ html,body{
 	display:none;
 	margin-bottom:40px;
 	padding-bottom:20px;
+	padding-top:20px;
 	border-color:black;
 	border-width:2px;
 	border-style:solid;
